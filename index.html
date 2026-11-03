@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Berita - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGASI HYPERLINK -->
+  <nav class="navbar">
+    <div class="logo">BERITA<span>KITA</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="galery.html">Galery</a></li>
+      <li><a href="YouTube.html">YouTube</a></li>
+    </ul>
+  </nav>
+
+  <!-- KONTEN UTAMA -->
+  <div class="container">
+    <h1 class="page-title">Berita Terkini & Video Artis</h1>
+
+    <div class="grid">
+      <!-- BERITA UTAMA / VIDEO LOKAL -->
+      <article class="card">
+        <video class="card-video" controls poster="images/artis.jpg">
+          <source src="video/artis.mp4" type="video/mp4">
+          Browser Anda tidak mendukung pemutar video HTML5.
+        </video>
+        <div class="card-body">
+          <span class="card-tag">Eksklusif Video</span>
+          <h2 class="card-title">Wawancara Terbaru Bersama Artis Papan Atas</h2>
+          <p class="card-text">Simak cuplikan wawancara eksklusif mengenai proyek musik terbaru dan persiapan tur konser mendatang.</p>
+          <a href="YouTube.html" class="btn-read">Lihat Versi YouTube &rarr;</a>
+        </div>
+      </article>
+
+      <!-- BERITA KEDUA -->
+      <article class="card">
+        <img src="images/artis.jpg" alt="Foto Artis" class="card-img">
+        <div class="card-body">
+          <span class="card-tag">Hiburan</span>
+          <h2 class="card-title">Peluncuran Album Baru Berlangsung Meriah</h2>
+          <p class="card-text">Acara panggung megah yang dihadiri ribuan penggemar berjalan sukses di Jakarta malam tadi.</p>
+          <a href="galery.html" class="btn-read">Lihat Foto Galeri &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Portal Berita Interaktif. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
